@@ -3,7 +3,7 @@
     margin: 0;
 
 }
-@media only screen and (min-width: 800px){
+ @media only screen and (min-width: 800px){
     .bg-header {
         background-color: lightgoldenrodyellow;
         padding: 20px;
@@ -92,6 +92,79 @@
     color: rgb(230, 230, 230);
     font-size: large;
 }
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin: 20px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 3 / 3; 
+        margin: 60px;
+    border: 4px double goldenrod;}
+        .div2 { grid-area: 1 / 3 / 3 / 5; 
+            margin: 60px;
+            border: 4px double goldenrod;}
+        .div3 { grid-area: 1 / 5 / 3 / 7;
+            margin: 60px;
+            border: 4px double goldenrod;}
+
+        .div4 { grid-area: 3 / 1 / 5 / 3;
+            margin: 60px;
+            border: 4px double goldenrod;
+         }
+
+        .div5 { grid-area: 3 / 3 / 5 / 5;
+            margin: 60px;
+            border: 4px double goldenrod; }
+
+        .div6 { grid-area: 3 / 5 / 5 / 7;
+            margin: 60px;
+            border: 4px double goldenrod; }
+
+        .div7 { grid-area: 6 / 1 / 8 / 3;
+            margin: 60px;
+            border: 4px double goldenrod; }
+
+        .div8 { grid-area: 6 / 3 / 8 / 5; 
+            margin: 60px;}
+
+        .div9 { grid-area: 6 / 5 / 8 / 7;
+            margin: 60px; }
+
+        .div10 { grid-area: 8 / 1 / 10 / 3; 
+            margin: 60px;}
+
+        .div11 { grid-area: 8 / 3 / 10 / 5;
+            margin: 60px; }
+
+        .div12 { grid-area: 8 / 5 / 10 / 7;
+            margin: 60px; }
+
+        .div13 { grid-area: 11 / 1 / 13 / 3; }
+
+        .div14 { grid-area: 11 / 3 / 12 / 4; }
+
+        .div15 { grid-area: 11 / 3 / 13 / 5; }
+        .div16 { grid-area: 11 / 5 / 13 / 7; }
+
+        .div1 img {
+            width: 100%;
+        }
+        .div2 img {width: 100%;
+        border: 3px double goldenrod;}
+        .div3 img {width: 100%;
+            border: 3px double goldenrod;} 
+        .div4 img {width: 100%;
+            border: 3px double goldenrod;} 
+        .div5 img {width: 100%;
+            border: 3px double goldenrod;} 
+        .div6 img {width: 100%;
+            border: 3px double goldenrod;} 
+        .div2 img {width: 100%;
+            border: 3px double goldenrod;}  
 
 }
 @media only screen and (max-width: 799px){
@@ -181,4 +254,4 @@
         color: rgb(230, 230, 230);
         font-size: large;
     }
-    
+}
