@@ -15,7 +15,7 @@
 
  .centro{
     background-image: url(imagenes/pizzita\ fondo.jpg);
-    height: 500px;
+    height: 700px;
     background-position: center;
   background-size: cover;
   background-repeat:no-repeat ;
@@ -36,25 +36,25 @@
     height: 200px;
     object-fit: cover;
     text-align: center;
-    padding-top: 180px;
+    padding-top: 260px;
     
 }
 
 #boton {
-    background-color:gray;
+    background-color:rgb(211, 192, 130);
     text-align: center;
-    border: 3px dotted goldenrod;
+    border: 3px double goldenrod;
     border-radius: 10px;
     padding: 5px;
    }
 
    #boton a {
     text-decoration: none;
-    color: goldenrod;
+    color: rgb(57, 57, 57);
     font-size: 30px;
    }
    #boton :hover {
-   color: rgb(0, 0, 0);
+   color: rgb(165, 165, 165);
    }
  
 .pie {
@@ -92,79 +92,124 @@
     color: rgb(230, 230, 230);
     font-size: large;
 }
-    .parent {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(10, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        margin: 20px;
-        }
-        
-        .div1 { grid-area: 1 / 1 / 3 / 3; 
-        margin: 60px;
-    border: 4px double goldenrod;}
-        .div2 { grid-area: 1 / 3 / 3 / 5; 
-            margin: 60px;
-            border: 4px double goldenrod;}
-        .div3 { grid-area: 1 / 5 / 3 / 7;
-            margin: 60px;
-            border: 4px double goldenrod;}
 
-        .div4 { grid-area: 3 / 1 / 5 / 3;
-            margin: 60px;
-            border: 4px double goldenrod;
-         }
+/* MENU CSS */
+.cuerpo {
+    background-color: rgb(211, 192, 130);
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 3 / 3; 
+    margin: 50px;
+    border: 3px double goldenrod;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+}
+    .div2 { grid-area: 1 / 3 / 3 / 5; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
+    .div3 { grid-area: 1 / 5 / 3 / 7; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
+    .div4 { grid-area: 3 / 1 / 5 / 3; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
+    .div5 { grid-area: 3 / 3 / 5 / 5; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
+    .div6 { grid-area: 3 / 5 / 5 / 7; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
 
-        .div5 { grid-area: 3 / 3 / 5 / 5;
-            margin: 60px;
-            border: 4px double goldenrod; }
+    .div7 { grid-area: 5 / 1 / 7 / 3; margin: 50px;
+        border: 3px double goldenrod;
+    padding: 20px;
+background-color: lightgoldenrodyellow;}
+    .div8 { grid-area: 5 / 3 / 7 / 5; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
 
-        .div6 { grid-area: 3 / 5 / 5 / 7;
-            margin: 60px;
-            border: 4px double goldenrod; }
+    .div9 { grid-area: 5 / 5 / 7 / 7; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
+    .div10 { grid-area: 7 / 1 / 9 / 3; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
+    .div11 { grid-area: 7 / 3 / 9 / 5; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
+    .div12 { grid-area: 7 / 5 / 9 / 7; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
+    .div13 { grid-area: 9 / 1 / 11 / 3; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
+    .div14 { grid-area: 9 / 3 / 11 / 5; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
+    .div15 { grid-area: 9 / 5 / 11 / 7; margin: 50px;
+        border: 3px double goldenrod;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;}
+    
+    .div1 img {
+        width: 100%;
+    }
+    .parent img {width: 100%;
+    height: 55%;
+border: 2px solid goldenrod;
+padding: 0%;}
 
-        .div7 { grid-area: 6 / 1 / 8 / 3;
-            margin: 60px;
-            border: 4px double goldenrod; }
+.parent h3 {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
 
-        .div8 { grid-area: 6 / 3 / 8 / 5; 
-            margin: 60px;}
+.parent p {
+    margin: 5px;
+    display: flex;
+    justify-content: start;
+    padding-top: 10px;
+    color: gray;
 
-        .div9 { grid-area: 6 / 5 / 8 / 7;
-            margin: 60px; }
+}
 
-        .div10 { grid-area: 8 / 1 / 10 / 3; 
-            margin: 60px;}
-
-        .div11 { grid-area: 8 / 3 / 10 / 5;
-            margin: 60px; }
-
-        .div12 { grid-area: 8 / 5 / 10 / 7;
-            margin: 60px; }
-
-        .div13 { grid-area: 11 / 1 / 13 / 3; }
-
-        .div14 { grid-area: 11 / 3 / 12 / 4; }
-
-        .div15 { grid-area: 11 / 3 / 13 / 5; }
-        .div16 { grid-area: 11 / 5 / 13 / 7; }
-
-        .div1 img {
-            width: 100%;
-        }
-        .div2 img {width: 100%;
-        border: 3px double goldenrod;}
-        .div3 img {width: 100%;
-            border: 3px double goldenrod;} 
-        .div4 img {width: 100%;
-            border: 3px double goldenrod;} 
-        .div5 img {width: 100%;
-            border: 3px double goldenrod;} 
-        .div6 img {width: 100%;
-            border: 3px double goldenrod;} 
-        .div2 img {width: 100%;
-            border: 3px double goldenrod;}  
+.parent h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding-top: 15px;
+}
+    
+.nosotros h4{
+    background-image: url(imagenes/backpizza.jpg);
+    height: 700px;
+    background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat ;
+  max-width: 100%;
+  
+    
 
 }
 @media only screen and (max-width: 799px){
