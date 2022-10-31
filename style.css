@@ -3,7 +3,7 @@
     margin: 0;
 
 }
-  /* @media only screen and (min-width: 800px){ */
+  @media only screen and (min-width: 800px){
     .bg-header {
         background-color: lightgoldenrodyellow;
         padding: 20px;
@@ -68,31 +68,28 @@
 .box{
     display: block;
     justify-content: center;
-    margin-left: 200px;
-    margin-top: 20px;
-    margin-right: 50px;
+    margin-left: 20%;
+    margin-top: 1%;
 }
 .box h2 {
     color: rgb(179, 179, 179);
+    font-size: 200%;
 }
 .box p {
     color: rgb(230, 230, 230);
-    font-size: large;
+    font-size: 120%;
 }
 
 .redes {
+    color: rgb(230, 230, 230);
     display: block;
     justify-content: center;
-    margin-left: 400px;
-    margin-top: 20px;
-    margin-right: 50px;
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-right: 20%;
 }
 .redes h2 {
     color: rgb(179, 179, 179);
-}
-.redes {
-    color: rgb(230, 230, 230);
-    font-size: large;
 }
 
 /* MENU */
@@ -108,68 +105,68 @@
     }
     
     .div1 { grid-area: 1 / 1 / 3 / 3; 
-    margin: 50px;
+    margin: 12%;
     border: 3px double goldenrod;
     padding: 20px;
     background-color: lightgoldenrodyellow;
 }
-    .div2 { grid-area: 1 / 3 / 3 / 5; margin: 50px;
+    .div2 { grid-area: 1 / 3 / 3 / 5; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
-    .div3 { grid-area: 1 / 5 / 3 / 7; margin: 50px;
+    .div3 { grid-area: 1 / 5 / 3 / 7; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
-    .div4 { grid-area: 3 / 1 / 5 / 3; margin: 50px;
+    .div4 { grid-area: 3 / 1 / 5 / 3; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
-    .div5 { grid-area: 3 / 3 / 5 / 5; margin: 50px;
+    .div5 { grid-area: 3 / 3 / 5 / 5; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
-    .div6 { grid-area: 3 / 5 / 5 / 7; margin: 50px;
+    .div6 { grid-area: 3 / 5 / 5 / 7; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
 
-    .div7 { grid-area: 5 / 1 / 7 / 3; margin: 50px;
+    .div7 { grid-area: 5 / 1 / 7 / 3; margin: 12%;
         border: 3px double goldenrod;
-    padding: 20px;
+    padding: 4%;
 background-color: lightgoldenrodyellow;}
-    .div8 { grid-area: 5 / 3 / 7 / 5; margin: 50px;
+    .div8 { grid-area: 5 / 3 / 7 / 5; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
 
-    .div9 { grid-area: 5 / 5 / 7 / 7; margin: 50px;
+    .div9 { grid-area: 5 / 5 / 7 / 7; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
-    .div10 { grid-area: 7 / 1 / 9 / 3; margin: 50px;
+    .div10 { grid-area: 7 / 1 / 9 / 3; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
-    .div11 { grid-area: 7 / 3 / 9 / 5; margin: 50px;
+    .div11 { grid-area: 7 / 3 / 9 / 5; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
-    .div12 { grid-area: 7 / 5 / 9 / 7; margin: 50px;
+    .div12 { grid-area: 7 / 5 / 9 / 7; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
-    .div13 { grid-area: 9 / 1 / 11 / 3; margin: 50px;
+    .div13 { grid-area: 9 / 1 / 11 / 3; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
-    .div14 { grid-area: 9 / 3 / 11 / 5; margin: 50px;
+    .div14 { grid-area: 9 / 3 / 11 / 5; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
-    .div15 { grid-area: 9 / 5 / 11 / 7; margin: 50px;
+    .div15 { grid-area: 9 / 5 / 11 / 7; margin: 12%;
         border: 3px double goldenrod;
-        padding: 20px;
+        padding: 4%;
         background-color: lightgoldenrodyellow;}
     
     .div1 img {
@@ -181,17 +178,18 @@ border: 2px solid goldenrod;
 padding: 0%;}
 
 .parent h3 {
-    margin: 5px;
+    margin: 3%;
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 140%;
 }
 
 .parent p {
     margin: 5px;
     display: flex;
-    justify-content: start;
-    padding-top: 10px;
+    justify-content: center;
+    padding-top: 2%;
+    font-size: 100%;
     color: gray;
 
 }
@@ -199,8 +197,8 @@ padding: 0%;}
 .parent h5 {
     display: flex;
     justify-content: center;
-    font-size: 16px;
-    padding-top: 15px;
+    font-size: 100%;
+    padding-top: 2%;
 }
     /* NOSOTROS */
 .parent2 {
@@ -230,14 +228,14 @@ padding: 0%;}
 
     .diva img {
         width: 100%;
-        height: 400px;
+        height: 100%;
         border: 6px double rgb(99, 99, 99);
         padding: 5px;
 
     }
     .divb img {
         width: 100%;
-        height: 400px;
+        height: 100%;
         border: 6px double rgb(99, 99, 99);
         padding: 5px;
 
@@ -250,6 +248,9 @@ padding: 0%;}
         background-color: lightgoldenrodyellow;
        
     }
+
+   
+
     /* DELIVERY */
 
     .fondo {
@@ -296,16 +297,12 @@ padding: 0%;}
         width: 100%;
         margin: ;
     }
+}
     
     /* AYUDA */
 
-.accordion-item {
-    background-color: blueviolet;
-}
-    .accordion-item {
-        background-color: yellow;
-        color: goldenrod;
-    }
+
+    
     
 
 
@@ -320,12 +317,13 @@ padding: 0%;}
     }
     .centro{
         background-image: url(imagenes/pizzita\ fondo.jpg);
+
         background-size: cover;
-        height: 300px;
+        height: 500px;
         background-position: center center;
       background-size: cover;
       background-repeat:no-repeat ;
-      max-width: 100%;
+      width: 100%;
     }
     .gastronomic h1{
         text-align: center;
@@ -340,7 +338,7 @@ padding: 0%;}
         height: 10px;
         object-fit: cover;
         text-align: center;
-        padding-top: 80px;
+        padding-top: 190px;
         
     }
     
@@ -361,37 +359,154 @@ padding: 0%;}
        color: rgb(165, 165, 165);
        }
 
+       .pie {
+        display: inline-flex;
+        background-color: rgb(11, 11, 11);
+        width: 100%;
+        padding: 0%;
+    }
     .box{
         display: block;
         justify-content: center;
-        margin-left: 20px;
-        margin-top: 10px;
-        margin-right: 10px;
+        margin-left: 5%;
+        margin-top: 6%;
     }
     .box h2 {
         color: rgb(179, 179, 179);
-        font-size: 18px;
+        font-size: 130%;
     }
     .box p {
         color: rgb(230, 230, 230);
-        font-size: 12px;
+        font-size: 80%;
     }
     
     .redes {
+        color: rgb(230, 230, 230);
         display: block;
-        justify-content: end;
-        margin-left: 200px;
-        margin-top: 10px;
-        margin-right: 10px;
-    }
+        justify-content: center;
+        margin-left: 30%;
+        margin-top: 6%;
+        margin-right: 5%;
     }
     .redes h2 {
         color: rgb(179, 179, 179);
-        font-size: 18px;
-        }
-    .redes {
-        color: rgb(230, 230, 230);
-        font-size: 12px;
+        font-size: 130%;
     }
 
- 
+    .rede p {
+        color: rgb(230, 230, 230);
+        font-size: 80%;
+
+    }
+
+    /* MENU */
+
+    .cuerpo {
+        background-color: rgb(211, 192, 130);
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 2;
+            margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow; }
+        .div2 { grid-area: 1 / 2 / 2 / 3;
+            margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow; }
+        .div3 { grid-area: 2 / 1 / 3 / 2;
+            margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow; }
+        .div4 { grid-area: 2 / 2 / 3 / 3; 
+            margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow;}
+        .div5 { grid-area: 3 / 1 / 4 / 2;
+            margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow;  }
+        .div6 { grid-area: 3 / 2 / 4 / 3; 
+            margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow; }
+        .div7 { grid-area: 4 / 1 / 5 / 2;
+            margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow; }
+        .div8 { grid-area: 4 / 2 / 5 / 3;margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow; }
+        .div9 { grid-area: 5 / 1 / 6 / 2; margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow;}
+        .div10 { grid-area: 5 / 2 / 6 / 3; margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow;}
+        .div11 { grid-area: 6 / 1 / 7 / 2;margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow; }
+        .div12 { grid-area: 6 / 2 / 7 / 3; margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow;}
+        .div13 { grid-area: 7 / 1 / 8 / 2; margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow;}
+        .div14 { grid-area: 7 / 2 / 8 / 3;margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow; }
+        .div15 { grid-area: 8 / 1 / 9 / 2; margin: 4%;
+            border: 3px double goldenrod;
+            padding: 1%;
+            background-color: lightgoldenrodyellow;}
+    
+    
+    .parent img {width: 100%;
+        height: 55%;
+    border: 2px solid goldenrod;
+    padding: 0%;}
+
+    .parent h3 {
+        margin: 1%;
+        display: flex;
+        justify-content: center;
+        font-size: 100%;
+    }
+    
+    .parent p {
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        padding-top: 1%;
+        font-size: 70%;
+        color: gray;
+    
+    }
+    
+    .parent h5 {
+        display: flex;
+        justify-content: center;
+        font-size: 60%;
+        padding-top: 2%;
+    }
+}
