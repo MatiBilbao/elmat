@@ -1,0 +1,62 @@
+
+ 
+ /* AYUDA */
+ @media (min-width:800px){
+ .contayuda {
+    background-color: rgb(255, 255, 241);
+}
+
+.ayuda {
+text-align: center;
+padding: 30px;
+font-weight: lighter;
+}
+
+.contactar {
+text-align: center;
+font-weight: lighter;
+font-weight: bold;
+padding: 30px;
+}
+
+.wsp {
+display: flex;
+justify-content: center;
+padding: 30px;
+text-decoration: underline;
+color: gray;
+}
+ }
+
+/*AYUDA MOBILE*/  
+ 
+ @media (max-width:799px){
+    .contayuda {
+        background-color: rgb(255, 255, 241);
+    }
+    
+    .ayuda {
+    text-align: center;
+    padding: 30px;
+    font-weight: lighter;
+    }
+    
+    .contactar {
+    text-align: center;
+    font-weight: lighter;
+    font-weight: bold;
+    padding: 30px;
+    }
+    
+    .wsp {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-decoration: underline;
+    color: gray;
+    }
+    
+
+
+
+ }

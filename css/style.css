@@ -1,0 +1,697 @@
+@import url();
+/*INDEX*/
+@import url(../imagenes/fondo\ de\ menu.jpg);
+@media (min-width: 800px) {
+  .bg-header {
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+  }
+  .bg-titulo {
+    color: black;
+    font-size: 30px;
+  }
+  .centro {
+    background-image: url(/imagenes/pizzitafondo.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
+  .gastronomic h1 {
+    text-align: center;
+    background-color: rgb(99, 99, 99);
+    color: goldenrod;
+    padding: 12px;
+    border: 4px double goldenrod;
+    width: 100%;
+  }
+  .boton {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    text-align: center;
+    padding-top: 260px;
+    transition: all 3s;
+  }
+  .boton :hover {
+    transform: scale(2);
+  }
+  #boton {
+    background-color: rgb(211, 192, 130);
+    text-align: center;
+    border: 3px double goldenrod;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 2s;
+  }
+  #boton a {
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+    font-size: 30px;
+  }
+  #boton :hover {
+    color: rgb(165, 165, 165);
+  }
+  .pie {
+    display: inline-flex;
+    background-color: rgb(11, 11, 11);
+    width: 100%;
+    padding: 0%;
+  }
+  .box {
+    display: block;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 1%;
+  }
+  .box h2 {
+    color: rgb(179, 179, 179);
+    font-size: 200%;
+  }
+  .box p {
+    color: rgb(230, 230, 230);
+    font-size: 120%;
+  }
+  .redes {
+    color: rgb(230, 230, 230);
+    display: block;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-right: 20%;
+  }
+  .redes h2 {
+    color: rgb(179, 179, 179);
+  }
+}
+@media only screen and (max-width: 799px) {
+  .bg-header {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+  }
+  .bg-titulo {
+    color: black;
+    font-size: 20px;
+  }
+  .centro {
+    background-image: url(/imagenes/pizzitafondo.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .gastronomic h1 {
+    text-align: center;
+    background-color: rgb(99, 99, 99);
+    color: goldenrod;
+    padding: 10px;
+    border: 4px double goldenrod;
+    width: 100%;
+  }
+  .boton {
+    width: 100%;
+    height: 10px;
+    object-fit: cover;
+    text-align: center;
+    padding-top: 190px;
+  }
+  #boton {
+    background-color: rgb(211, 192, 130);
+    text-align: center;
+    border: 3px double goldenrod;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  #boton a {
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+    font-size: 20px;
+  }
+  #boton :hover {
+    color: rgb(165, 165, 165);
+  }
+  .pie {
+    display: inline-flex;
+    background-color: rgb(11, 11, 11);
+    width: 100%;
+    padding: 0%;
+  }
+  .box {
+    display: block;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 6%;
+  }
+  .box h2 {
+    color: rgb(179, 179, 179);
+    font-size: 130%;
+  }
+  .box p {
+    color: rgb(230, 230, 230);
+    font-size: 80%;
+  }
+  .redes {
+    color: rgb(230, 230, 230);
+    display: block;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 6%;
+    margin-right: 5%;
+  }
+  .redes h2 {
+    color: rgb(179, 179, 179);
+    font-size: 130%;
+  }
+  .rede p {
+    color: rgb(230, 230, 230);
+    font-size: 80%;
+  }
+}
+/* MENU */
+@media (min-width: 800px) {
+  .cuerpo {
+    background-image: url(/imagenes/fondo\ de\ menu.jpg);
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .div1 {
+    grid-area: 1/1/3/3;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+  }
+  .div2 {
+    grid-area: 1/3/3/5;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div3 {
+    grid-area: 1/5/3/7;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div4 {
+    grid-area: 3/1/5/3;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div5 {
+    grid-area: 3/3/5/5;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div6 {
+    grid-area: 3/5/5/7;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div7 {
+    grid-area: 5/1/7/3;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div8 {
+    grid-area: 5/3/7/5;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div9 {
+    grid-area: 5/5/7/7;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div10 {
+    grid-area: 7/1/9/3;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div11 {
+    grid-area: 7/3/9/5;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div12 {
+    grid-area: 7/5/9/7;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div13 {
+    grid-area: 9/1/11/3;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div14 {
+    grid-area: 9/3/11/5;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div15 {
+    grid-area: 9/5/11/7;
+    margin: 12%;
+    border: 3px double goldenrod;
+    padding: 4%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div1 img {
+    width: 100%;
+  }
+  .parent img {
+    width: 100%;
+    height: 55%;
+    border: 2px solid goldenrod;
+    padding: 0%;
+  }
+  .parent h3 {
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    font-size: 140%;
+  }
+  .parent p {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    font-size: 100%;
+    color: gray;
+  }
+  .parent h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+    padding-top: 2%;
+  }
+}
+@media only screen and (max-width: 799px) {
+  .cuerpo {
+    background-image: url(/imagenes/fondo\ de\ menu.jpg);
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .div1 {
+    grid-area: 1/1/2/2;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div2 {
+    grid-area: 1/2/2/3;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div3 {
+    grid-area: 2/1/3/2;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div4 {
+    grid-area: 2/2/3/3;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div5 {
+    grid-area: 3/1/4/2;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div6 {
+    grid-area: 3/2/4/3;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div7 {
+    grid-area: 4/1/5/2;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div8 {
+    grid-area: 4/2/5/3;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div9 {
+    grid-area: 5/1/6/2;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div10 {
+    grid-area: 5/2/6/3;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div11 {
+    grid-area: 6/1/7/2;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div12 {
+    grid-area: 6/2/7/3;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div13 {
+    grid-area: 7/1/8/2;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div14 {
+    grid-area: 7/2/8/3;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .div15 {
+    grid-area: 8/1/9/2;
+    margin: 4%;
+    border: 3px double goldenrod;
+    padding: 1%;
+    background-color: lightgoldenrodyellow;
+  }
+  .parent img {
+    width: 100%;
+    height: 55%;
+    border: 2px solid goldenrod;
+    padding: 0%;
+  }
+  .parent h3 {
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+  }
+  .parent p {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    font-size: 70%;
+    color: gray;
+  }
+  .parent h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 70%;
+    padding-top: 2%;
+  }
+}
+/* NOSOTROS */
+@media (min-width: 800px) {
+  body {
+    background-color: lightgoldenrodyellow;
+  }
+  .parent2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .nstrs h2 {
+    text-align: center;
+    background-color: rgb(99, 99, 99);
+    color: goldenrod;
+    padding: 15px;
+    border: 4px double goldenrod;
+    width: 100%;
+  }
+  .diva {
+    grid-area: 1/1/2/2;
+  }
+  .divb {
+    grid-area: 1/2/2/3;
+  }
+  .parent2 {
+    background-color: rgb(211, 192, 130);
+    padding: 15px 15px 15px 15px;
+  }
+  .diva img {
+    width: 100%;
+    height: 100%;
+    border: 6px double rgb(99, 99, 99);
+    padding: 5px;
+  }
+  .divb img {
+    width: 100%;
+    height: 100%;
+    border: 6px double rgb(99, 99, 99);
+    padding: 5px;
+  }
+  .quienessomos p {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+  }
+}
+/* NOSOTROS MOBILE*/
+@media (max-width: 799px) {
+  body {
+    background-color: lightgoldenrodyellow;
+  }
+  .parent2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .nstrs h2 {
+    text-align: center;
+    background-color: rgb(99, 99, 99);
+    color: goldenrod;
+    padding: 15px;
+    border: 4px double goldenrod;
+    width: 100%;
+  }
+  .parent2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: rgb(211, 192, 130);
+  }
+  .diva {
+    grid-area: 1/1/3/2;
+  }
+  .diva img {
+    width: 100%;
+    height: 100%;
+    border: 6px double rgb(99, 99, 99);
+    padding: 5px;
+  }
+  .divb img {
+    width: 100%;
+    height: 100%;
+    border: 6px double rgb(99, 99, 99);
+    padding: 5px;
+  }
+  .quienessomos p {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    background-color: lightgoldenrodyellow;
+  }
+}
+/* DELIVERY */
+@media (min-width: 800px) {
+  .fondo {
+    background-color: lightgoldenrodyellow;
+  }
+  .delivery {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(/imagenes/delivery.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+  }
+  .delivery p {
+    color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    padding-top: 130px;
+    padding-right: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .ubicacion {
+    padding-top: 5px;
+  }
+  .ubicacion h3 {
+    background-color: goldenrod;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border: 2px double gray;
+    color: rgb(50, 50, 50);
+  }
+  .mapa {
+    width: 100%;
+  }
+}
+@media (max-width: 799px) {
+  .fondo {
+    background-color: lightgoldenrodyellow;
+  }
+  .delivery {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(/imagenes/delivery.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+  }
+  .delivery p {
+    color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .ubicacion {
+    padding-top: 5px;
+  }
+  .ubicacion h3 {
+    background-color: goldenrod;
+    font-size: px;
+    text-align: center;
+    padding: 10px;
+    border: 2px double gray;
+    color: rgb(50, 50, 50);
+  }
+  .mapa {
+    width: 100%;
+    height: 400px;
+  }
+}
+/* AYUDA */
+@media (min-width: 800px) {
+  .contayuda {
+    background-color: rgb(255, 255, 241);
+  }
+  .ayuda {
+    text-align: center;
+    padding: 30px;
+    font-weight: lighter;
+  }
+  .contactar {
+    text-align: center;
+    font-weight: lighter;
+    font-weight: bold;
+    padding: 30px;
+  }
+  .wsp {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-decoration: underline;
+    color: gray;
+  }
+}
+/*AYUDA MOBILE*/
+@media (max-width: 799px) {
+  .contayuda {
+    background-color: rgb(255, 255, 241);
+  }
+  .ayuda {
+    text-align: center;
+    padding: 30px;
+    font-weight: lighter;
+  }
+  .contactar {
+    text-align: center;
+    font-weight: lighter;
+    font-weight: bold;
+    padding: 30px;
+  }
+  .wsp {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-decoration: underline;
+    color: gray;
+  }
+}
+.bg-header {
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+}
+
+.bg-titulo {
+  color: black;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

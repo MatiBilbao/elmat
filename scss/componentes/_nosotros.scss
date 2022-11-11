@@ -1,0 +1,115 @@
+
+ 
+ /* NOSOTROS */
+ 
+  @media (min-width:800px){
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+  .parent2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .nstrs h2 {
+        text-align: center;
+        background-color: rgb(99, 99, 99);
+        color:goldenrod;
+        padding: 15px;
+        border: 4px double goldenrod;
+        width: 100%;
+    }
+    
+    .diva { grid-area: 1 / 1 / 2 / 2; }
+    .divb { grid-area: 1 / 2 / 2 / 3; }
+
+    .parent2 {
+        background-color: rgb(211, 192, 130);
+        padding: 15px 15px 15px 15px;
+    }
+
+    .diva img {
+        width: 100%;
+        height: 100%;
+        border: 6px double rgb(99, 99, 99);
+        padding: 5px;
+
+    }
+    .divb img {
+        width: 100%;
+        height: 100%;
+        border: 6px double rgb(99, 99, 99);
+        padding: 5px;
+
+    }
+    .quienessomos p {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px;
+        background-color: lightgoldenrodyellow;
+       
+    }
+  }
+
+/* NOSOTROS MOBILE*/   
+@media (max-width:799px){
+
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+    .parent2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+    
+        .nstrs h2 {
+            text-align: center;
+            background-color: rgb(99, 99, 99);
+            color:goldenrod;
+            padding: 15px;
+            border: 4px double goldenrod;
+            width: 100%;
+        }
+        .parent2 {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            background-color: rgb(211, 192, 130);
+            }
+            
+            .diva { grid-area: 1 / 1 / 3 / 2; }
+        
+    
+        .diva img {
+            width: 100%;
+            height: 100%;
+            border: 6px double rgb(99, 99, 99);
+            padding: 5px;
+    
+        }
+        .divb img {
+            width: 100%;
+            height: 100%;
+            border: 6px double rgb(99, 99, 99);
+            padding: 5px;
+    
+        }
+        .quienessomos p {
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            padding: 15px;
+            background-color: lightgoldenrodyellow;
+           
+        }
+
+}
