@@ -1,6 +1,7 @@
-@import url();
 /*INDEX*/
-@import url(../imagenes/fondo\ de\ menu.jpg);
+@import url(/imagenes/fondo-de-menu.jpg);
+@import url(../base/_listas.scss);
+@import url(base/_listas.scss);
 @media (min-width: 800px) {
   .bg-header {
     background-color: lightgoldenrodyellow;
@@ -11,7 +12,7 @@
     font-size: 30px;
   }
   .centro {
-    background-image: url(/imagenes/pizzitafondo.jpg);
+    background-image: url("../imagenes/pizzitafondo.jpg");
     height: 700px;
     background-position: center;
     background-size: cover;
@@ -95,7 +96,7 @@
     font-size: 20px;
   }
   .centro {
-    background-image: url(/imagenes/pizzitafondo.jpg);
+    background-image: url("../imagenes/pizzitafondo.jpg");
     background-size: cover;
     height: 500px;
     background-position: center center;
@@ -173,7 +174,7 @@
 /* MENU */
 @media (min-width: 800px) {
   .cuerpo {
-    background-image: url(/imagenes/fondo\ de\ menu.jpg);
+    background-image: url("/imagenes/fondo-de-menu.jpg");
   }
   .parent {
     display: grid;
@@ -319,7 +320,7 @@
 }
 @media only screen and (max-width: 799px) {
   .cuerpo {
-    background-image: url(/imagenes/fondo\ de\ menu.jpg);
+    background-image: url("/imagenes/fondo-de-menu.jpg");
   }
   .parent {
     display: grid;
@@ -567,7 +568,7 @@
     background-color: lightgoldenrodyellow;
   }
   .delivery {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(/imagenes/delivery.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("/imagenes/delivery.jpg");
     background-size: contain;
     width: 100%;
     height: 400px;
@@ -603,7 +604,7 @@
     background-color: lightgoldenrodyellow;
   }
   .delivery {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(/imagenes/delivery.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("/imagenes/delivery.jpg");
     background-size: contain;
     width: 100%;
     height: 300px;
@@ -683,15 +684,6 @@
     text-decoration: underline;
     color: gray;
   }
-}
-.bg-header {
-  background-color: lightgoldenrodyellow;
-  padding: 20px;
-}
-
-.bg-titulo {
-  color: black;
-  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
