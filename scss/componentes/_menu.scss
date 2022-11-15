@@ -6,7 +6,7 @@
 @media (min-width:800px) {
     
 .cuerpo {
-    background-color: blue;
+    background-image: url("../../imagenes/fondo-de-menu.jpg") ;
 }
 .parent {
     display: grid;
@@ -118,7 +118,7 @@ padding: 0%;}
 @media only screen and (max-width: 799px){
 
 .cuerpo {
-    background-color: blue;
+    background-image: url("../../imagenes/fondo-de-menu.jpg");
 }
 .parent {
     display: grid;
