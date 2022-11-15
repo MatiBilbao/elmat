@@ -6,7 +6,7 @@
 @media (min-width:800px) {
     
 .cuerpo {
-    background-image: url("../../imagenes/fondo-de-menu.jpg") ;
+    background-image: url(../imagenes/fondo-de-menu.jpg) ;
 }
 .parent {
     display: grid;
@@ -105,7 +105,7 @@ padding: 0%;}
 
 }
 
-.parent h5 {
+.precios {
     display: flex;
     justify-content: center;
     font-size: 100%;
@@ -118,7 +118,7 @@ padding: 0%;}
 @media only screen and (max-width: 799px){
 
 .cuerpo {
-    background-image: url("../../imagenes/fondo-de-menu.jpg");
+    background-image: url(../imagenes/fondo-de-menu.jpg);
 }
 .parent {
     display: grid;
@@ -224,7 +224,7 @@ padding: 0%;}
 
 }
 
-.parent h5 {
+.precios {
     display: flex;
     justify-content: center;
     font-size: 70%;
