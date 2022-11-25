@@ -27,6 +27,8 @@
         padding: 12px;
         border: 4px double goldenrod;
         width: 100%;
+        font-family: 'Rye', cursiva;
+        margin-bottom: 0px;
        
      }
      .boton{
@@ -39,7 +41,7 @@
         }
 
     .boton :hover {
-        transform: scale(2);
+        transform: scale(1.2);
     }
     
     #boton {
@@ -124,6 +126,8 @@
     padding: 10px;
     border: 4px double goldenrod;
     width: 100%;
+    font-family: 'Rye', cursiva;
+    margin-bottom: 0px;
 }
 .boton{
     width: 100%;
@@ -131,7 +135,12 @@
     object-fit: cover;
     text-align: center;
     padding-top: 190px;
+    transition: all 3s;
     
+}
+
+.boton :hover {
+    transform: scale(1.2);
 }
 
 #boton {
@@ -140,6 +149,7 @@
     border: 3px double goldenrod;
     border-radius: 10px;
     padding: 5px;
+    transition: all 2s;
    }
 
    #boton a {

@@ -23,6 +23,8 @@
     padding: 12px;
     border: 4px double goldenrod;
     width: 100%;
+    font-family: "Rye", cursiva;
+    margin-bottom: 0px;
   }
   .boton {
     width: 100%;
@@ -33,7 +35,7 @@
     transition: all 3s;
   }
   .boton :hover {
-    transform: scale(2);
+    transform: scale(1.2);
   }
   #boton {
     background-color: rgb(211, 192, 130);
@@ -110,6 +112,8 @@
     padding: 10px;
     border: 4px double goldenrod;
     width: 100%;
+    font-family: "Rye", cursiva;
+    margin-bottom: 0px;
   }
   .boton {
     width: 100%;
@@ -117,6 +121,10 @@
     object-fit: cover;
     text-align: center;
     padding-top: 190px;
+    transition: all 3s;
+  }
+  .boton :hover {
+    transform: scale(1.2);
   }
   #boton {
     background-color: rgb(211, 192, 130);
@@ -124,6 +132,7 @@
     border: 3px double goldenrod;
     border-radius: 10px;
     padding: 5px;
+    transition: all 2s;
   }
   #boton a {
     text-decoration: none;
@@ -172,154 +181,140 @@
 }
 /* LISTAS */
 /* MENU */
-@media (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
   .cuerpo {
     background-image: url(../imagenes/fondo-de-menu.jpg);
   }
   .parent {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin: 0px;
   }
   .div1 {
-    grid-area: 1/1/3/3;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 20px;
-    background-color: lightgoldenrodyellow;
+    grid-area: 1/1/2/2;
+    display: flex;
+    justify-content: end;
+    margin: 50px;
   }
   .div2 {
-    grid-area: 1/3/3/5;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 1/2/2/3;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
   }
   .div3 {
-    grid-area: 1/5/3/7;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 1/3/2/4;
+    display: flex;
+    justify-content: start;
+    margin: 50px;
   }
   .div4 {
-    grid-area: 3/1/5/3;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 2/1/3/2;
+    display: flex;
+    justify-content: end;
+    margin: 50px;
   }
   .div5 {
-    grid-area: 3/3/5/5;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 2/2/3/3;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
   }
   .div6 {
-    grid-area: 3/5/5/7;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 2/3/3/4;
+    display: flex;
+    justify-content: start;
+    margin: 50px;
   }
   .div7 {
-    grid-area: 5/1/7/3;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 3/1/4/2;
+    display: flex;
+    justify-content: end;
+    margin: 50px;
   }
   .div8 {
-    grid-area: 5/3/7/5;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 3/2/4/3;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
   }
   .div9 {
-    grid-area: 5/5/7/7;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 3/3/4/4;
+    display: flex;
+    justify-content: start;
+    margin: 50px;
   }
   .div10 {
-    grid-area: 7/1/9/3;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 4/1/5/2;
+    display: flex;
+    justify-content: end;
+    margin: 50px;
   }
   .div11 {
-    grid-area: 7/3/9/5;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 4/2/5/3;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
   }
   .div12 {
-    grid-area: 7/5/9/7;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 4/3/5/4;
+    display: flex;
+    justify-content: start;
+    margin: 50px;
   }
   .div13 {
-    grid-area: 9/1/11/3;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 5/1/6/2;
+    display: flex;
+    justify-content: end;
+    margin: 50px;
   }
   .div14 {
-    grid-area: 9/3/11/5;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 5/2/6/3;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
   }
   .div15 {
-    grid-area: 9/5/11/7;
-    margin: 12%;
-    border: 3px double goldenrod;
-    padding: 4%;
-    background-color: lightgoldenrodyellow;
+    grid-area: 5/3/6/4;
+    display: flex;
+    justify-content: start;
+    margin: 50px;
   }
-  .div1 img {
-    width: 100%;
+  .card {
+    padding: 10px;
+    border: 4px double goldenrod;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(165, 165, 165);
+    background-color: lightgoldenrodyellow;
   }
   .parent img {
     width: 100%;
-    height: 55%;
-    border: 2px solid goldenrod;
-    padding: 0%;
+    height: 50%;
+    border-radius: 4px;
+    margin: 0px;
   }
-  .parent h3 {
-    margin: 3%;
-    display: flex;
-    justify-content: center;
-    font-size: 140%;
+  .card-text {
+    text-align: center;
+    margin-top: 5px;
+    border: 2px double gray;
+    background-color: lightgrey;
+    font-family: "Kaushan Script", cursive;
+    font-weight: bolder;
+    color: rgb(65, 37, 7);
   }
-  .parent p {
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    padding-top: 2%;
-    font-size: 100%;
-    color: gray;
+  .ingredientes {
+    text-align: center;
+    margin: 2px;
   }
-  .precios {
-    display: flex;
-    justify-content: center;
-    font-size: 100%;
-    padding-top: 2%;
+  .precio {
+    text-align: center;
   }
 }
 /* MENU MOBILE*/
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 999px) {
   .cuerpo {
     background-image: url(../imagenes/fondo-de-menu.jpg);
   }
@@ -329,137 +324,254 @@
     grid-template-rows: repeat(8, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin: 0px;
   }
   .div1 {
     grid-area: 1/1/2/2;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: end;
+    margin: 30px;
   }
   .div2 {
     grid-area: 1/2/2/3;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: start;
+    margin: 30px;
   }
   .div3 {
     grid-area: 2/1/3/2;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: end;
+    margin: 30px;
   }
   .div4 {
     grid-area: 2/2/3/3;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: start;
+    margin: 30px;
   }
   .div5 {
     grid-area: 3/1/4/2;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: end;
+    margin: 30px;
   }
   .div6 {
     grid-area: 3/2/4/3;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: start;
+    margin: 30px;
   }
   .div7 {
     grid-area: 4/1/5/2;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: end;
+    margin: 30px;
   }
   .div8 {
     grid-area: 4/2/5/3;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: start;
+    margin: 30px;
   }
   .div9 {
     grid-area: 5/1/6/2;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: end;
+    margin: 30px;
   }
   .div10 {
     grid-area: 5/2/6/3;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: start;
+    margin: 30px;
   }
   .div11 {
     grid-area: 6/1/7/2;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: end;
+    margin: 30px;
   }
   .div12 {
     grid-area: 6/2/7/3;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: start;
+    margin: 30px;
   }
   .div13 {
     grid-area: 7/1/8/2;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: end;
+    margin: 30px;
   }
   .div14 {
     grid-area: 7/2/8/3;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: start;
+    margin: 30px;
   }
   .div15 {
     grid-area: 8/1/9/2;
-    margin: 4%;
-    border: 3px double goldenrod;
-    padding: 1%;
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+  }
+  .card {
+    padding: 10px;
+    border: 4px double goldenrod;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(165, 165, 165);
     background-color: lightgoldenrodyellow;
   }
   .parent img {
     width: 100%;
-    height: 55%;
-    border: 2px solid goldenrod;
-    padding: 0%;
+    height: 200px;
+    border-radius: 4px;
+    margin: 0px;
   }
-  .parent h3 {
-    margin: 1%;
+  .card-text {
+    text-align: center;
+    border: 2px double gray;
+    background-color: lightgrey;
+    margin-top: 5px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: bolder;
+    color: rgb(65, 37, 7);
+  }
+  .ingredientes {
+    text-align: center;
+    margin: 2px;
+    font-family: "Yellowtail", cursiva;
+  }
+  .precio {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 629px) {
+  .cuerpo {
+    background-image: url(../imagenes/fondo-de-menu.jpg);
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(15, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 0px;
+  }
+  .div1 {
+    grid-area: 1/1/2/2;
     display: flex;
     justify-content: center;
-    font-size: 100%;
+    margin: 30px;
   }
-  .parent p {
-    margin: 5px;
+  .div2 {
+    grid-area: 2/1/3/2;
     display: flex;
     justify-content: center;
-    padding-top: 1%;
-    font-size: 70%;
-    color: gray;
+    margin: 30px;
   }
-  .precios {
+  .div3 {
+    grid-area: 3/1/4/2;
     display: flex;
     justify-content: center;
-    font-size: 70%;
-    padding-top: 2%;
+    margin: 30px;
+  }
+  .div4 {
+    grid-area: 4/1/5/2;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .div5 {
+    grid-area: 5/1/6/2;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .div6 {
+    grid-area: 6/1/7/2;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .div7 {
+    grid-area: 7/1/8/2;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .div8 {
+    grid-area: 8/1/9/2;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .div9 {
+    grid-area: 9/1/10/2;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .div10 {
+    grid-area: 10/1/11/2;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .div11 {
+    grid-area: 11/1/12/2;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .div12 {
+    grid-area: 12/1/13/2;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .div13 {
+    grid-area: 13/1/14/2;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .div14 {
+    grid-area: 14/1/15/2;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .div15 {
+    grid-area: 15/1/16/2;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  .card {
+    padding: 10px;
+    border: 4px double goldenrod;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(165, 165, 165);
+    background-color: lightgoldenrodyellow;
+  }
+  .parent img {
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+    margin: 0px;
+  }
+  .card-text {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .ingredientes {
+    text-align: center;
+    margin: 2px;
+  }
+  .precio {
+    text-align: center;
   }
 }
 /* NOSOTROS */
@@ -473,14 +585,6 @@
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-  }
-  .nstrs h2 {
-    text-align: center;
-    background-color: rgb(99, 99, 99);
-    color: goldenrod;
-    padding: 15px;
-    border: 4px double goldenrod;
-    width: 100%;
   }
   .diva {
     grid-area: 1/1/2/2;
@@ -505,10 +609,20 @@
     padding: 5px;
   }
   .quienessomos p {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     padding: 20px;
+    background-color: lightgoldenrodyellow;
+    font-family: "Permanent Marker", cursiva;
+    font-weight: lighter;
+  }
+  .horarios {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    color: gray;
     background-color: lightgoldenrodyellow;
   }
 }
@@ -523,14 +637,6 @@
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-  }
-  .nstrs h2 {
-    text-align: center;
-    background-color: rgb(99, 99, 99);
-    color: goldenrod;
-    padding: 15px;
-    border: 4px double goldenrod;
-    width: 100%;
   }
   .parent2 {
     display: grid;
@@ -556,10 +662,20 @@
     padding: 5px;
   }
   .quienessomos p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     padding: 15px;
+    background-color: lightgoldenrodyellow;
+    font-family: "Permanent Marker", cursiva;
+    font-weight: lighter;
+  }
+  .horarios {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    color: gray;
     background-color: lightgoldenrodyellow;
   }
 }
@@ -633,6 +749,8 @@
     padding: 10px;
     border: 2px double gray;
     color: rgb(50, 50, 50);
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .mapa {
     width: 100%;

@@ -14,15 +14,6 @@
     grid-row-gap: 0px;
     }
 
-    .nstrs h2 {
-        text-align: center;
-        background-color: rgb(99, 99, 99);
-        color:goldenrod;
-        padding: 15px;
-        border: 4px double goldenrod;
-        width: 100%;
-    }
-    
     .diva { grid-area: 1 / 1 / 2 / 2; }
     .divb { grid-area: 1 / 2 / 2 / 3; }
 
@@ -46,12 +37,24 @@
 
     }
     .quienessomos p {
-        font-size: 15px;
+        font-size: 20px;
         font-weight: bold;
         text-align: center;
         padding: 20px;
         background-color: lightgoldenrodyellow;
+        font-family: 'Permanent Marker', cursiva;
+        font-weight: lighter;
+        
        
+    }
+
+    .horarios {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px;
+        color: gray;
+        background-color: lightgoldenrodyellow;
     }
   }
 
@@ -68,15 +71,6 @@
         grid-template-rows: repeat(1, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-        }
-    
-        .nstrs h2 {
-            text-align: center;
-            background-color: rgb(99, 99, 99);
-            color:goldenrod;
-            padding: 15px;
-            border: 4px double goldenrod;
-            width: 100%;
         }
         .parent2 {
             display: grid;
@@ -105,11 +99,22 @@
     
         }
         .quienessomos p {
-            font-size: 14px;
+            font-size: 18px;
             font-weight: bold;
             text-align: center;
             padding: 15px;
             background-color: lightgoldenrodyellow;
+            font-family: 'Permanent Marker', cursiva;
+            font-weight: lighter;
            
+        }
+        .horarios {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            padding: 15px;
+            color: gray;
+            background-color: lightgoldenrodyellow;
+            
         }
 }
